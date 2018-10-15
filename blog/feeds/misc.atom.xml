@@ -10,6 +10,17 @@
 &lt;p&gt;在 Edit 的介面下，可以更改自己網誌的內容、嵌入影片&lt;/p&gt;
 &lt;p&gt;利用 generate_pages 轉為靜態網頁&lt;/p&gt;
 &lt;p&gt;推送至自己的倉儲&lt;/p&gt;
+&lt;p&gt;@generate_pages:將所有原始檔案刪除，再重新建立所有檔案，以達到更新的效果&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week2</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week2.html" rel="alternate"></link><published>2018-09-17T11:00:00+08:00</published><updated>2018-09-17T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-17:/site-40623246/blog/2018-Fall-Project-Blog-week2.html</id><summary type="html">&lt;p&gt;2018 Fall 更新自己的網誌標題及內容&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Fall 更新自己的網誌標題及內容&lt;/p&gt;
+
+
+&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
+&lt;p&gt;利用p37中的git建立個人的Github Pages&lt;/p&gt;
+&lt;p&gt;輸入指令 python wsgi.py 啟動近端動態&lt;/p&gt;
+&lt;p&gt;登入(login)，更改配置(config)&lt;/p&gt;
+&lt;p&gt;在 Edit 的介面下，可以更改自己網誌的內容、嵌入影片&lt;/p&gt;
+&lt;p&gt;利用 generate_pages 轉為靜態網頁&lt;/p&gt;
+&lt;p&gt;推送至自己的倉儲&lt;/p&gt;
 &lt;p&gt;@generate_pages:將所有原始檔案刪除，再重新建立所有檔案，以達到更新的效果&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40623246/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
