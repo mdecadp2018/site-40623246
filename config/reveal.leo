@@ -361,9 +361,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181105032431.2">### w2
+<t tx="leo.20181105032431.2">## w2
 
-# 更新自己的網誌標題及內容
+### 更新自己的網誌標題及內容
 
 利用p37中的git建立個人的Github Pages
 
@@ -387,9 +387,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181105034031.2">### w5
+<t tx="leo.20181105034031.2">## w5
 
-# onshape練習
+### onshape練習
 
 利用Onshape繪圖，練習更多Onshape功能。
 
@@ -405,9 +405,9 @@ onshape作業練習</t>
 
 						
 </t>
-<t tx="leo.20181105034041.2">### w4
+<t tx="leo.20181105034041.2">## w4
 
-# onshape
+### onshape
 ```
 @language python
 onshape
@@ -442,9 +442,9 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034055.2">### w1
+<t tx="leo.20181105034055.2">## w1
 
-# github推送資料複習
+### github推送資料複習
 ```
 @language python
 -克隆:git clone  "目標網址" "放置之資料夾名稱"
@@ -466,9 +466,9 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034328.2">### w6
+<t tx="leo.20181105034328.2">## w6
 
-# github更新
+### github更新
 
 更新倉儲中的 flaskapp.py 至最新版本
 
@@ -488,9 +488,9 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034339.2">### w7
+<t tx="leo.20181105034339.2">## w7
 
-# github無法使用
+### github無法使用
 
 討論發生此狀況的原因，及其他應變的方法
 </t>
@@ -505,9 +505,9 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034350.2">### w8
+<t tx="leo.20181105034350.2">## w8
 
-# 網誌標題
+### 網誌標題
 
 更改升級CMSimfly倉儲中的flaskapp.py下，網頁的標題。</t>
 </tnodes>
