@@ -24,10 +24,34 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20181105034055.1" a="E"><vh>week1</vh>
+<v t="leo.20181105034055.2"><vh>w1</vh></v>
+</v>
+<v t="leo.20181105032431.1" a="E"><vh>week2</vh>
+<v t="leo.20181105032431.2"><vh>w2</vh></v>
+</v>
+<v t="leo.20181105034043.1" a="E"><vh>week3</vh>
+<v t="leo.20181105034043.2"><vh>w3</vh></v>
+</v>
+<v t="leo.20181105034041.1" a="E"><vh>week4</vh>
+<v t="leo.20181105034041.2"><vh>w4</vh></v>
+</v>
+<v t="leo.20181105034031.1" a="E"><vh>week5</vh>
+<v t="leo.20181105034031.2"><vh>w5</vh></v>
+</v>
+<v t="leo.20181105034328.1" a="E"><vh>week6</vh>
+<v t="leo.20181105034328.2"><vh>w6</vh></v>
+</v>
+<v t="leo.20181105034339.1" a="E"><vh>week7</vh>
+<v t="leo.20181105034339.2"><vh>w7</vh></v>
+</v>
+<v t="leo.20181105034350.1" a="E"><vh>week8</vh>
+<v t="leo.20181105034350.2"><vh>w8</vh></v>
+</v>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -129,10 +153,10 @@ vertical: body pane on the botton</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.html)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[2018 Fall 個人網誌](https://mdecadp2018.github.io/site-40623246/content/index.html)
 
 
 </t>
@@ -326,5 +350,165 @@ make.start()
 
 						
 </t>
+<t tx="leo.20181105032431.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105032431.2">### w2
+
+#更新自己的網誌標題及內容
+
+利用p37中的git建立個人的Github Pages
+
+輸入指令 python wsgi.py 啟動近端動態
+
+登入(login)，更改配置(config)
+
+利用 generate_pages 轉為靜態網頁
+
+推送至自己的倉儲
+
+@generate_pages:將所有原始檔案刪除，再重新建立所有檔案，以達到更新的效果</t>
+<t tx="leo.20181105034031.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105034031.2">###w5
+
+#onshape練習
+
+利用Onshape繪圖，練習更多Onshape功能。
+
+onshape作業練習</t>
+<t tx="leo.20181105034041.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105034041.2">### w4
+
+#onshape
+```
+@language python
+onshape
+
+網頁版的繪圖軟體，類似於SOLIDWORK的操作模式，但是又加上雲端的協同功能。
+
+學習用Onshape繪圖，認識介面及熟悉操作
+
+```</t>
+<t tx="leo.20181105034043.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105034043.2">###w3
+
+中秋放假</t>
+<t tx="leo.20181105034055.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105034055.2">### w1
+
+#github推送資料複習
+```
+@language python
+-克隆:git clone  "目標網址" "放置之資料夾名稱"
+
+-狀態:git status ，主要是用來看目前working directory中所有檔案的情形
+
+-添加、追蹤:git add . ，將檔案安置到暫存區
+
+-提交紀錄:git commit -m ，把暫存區的檔案移至儲存庫
+```</t>
+<t tx="leo.20181105034328.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105034328.2">###w6
+
+#github更新
+
+更新倉儲中的 flaskapp.py 至最新版本
+
+搜尋 github cmsimfly
+
+克隆該倉儲
+
+並將其中 flaskapp.py 的檔案複製進自己的倉儲，選擇複製並取代</t>
+<t tx="leo.20181105034339.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105034339.2">###w7
+
+#github無法使用
+
+討論發生此狀況的原因，及其他應變的方法
+</t>
+<t tx="leo.20181105034350.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181105034350.2">### w8
+
+#網誌標題
+
+更改升級CMSimfly倉儲中的flaskapp.py下，網頁的標題。</t>
 </tnodes>
 </leo_file>
