@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623246/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623246/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623246/blog/</id><updated>2018-10-01T11:00:00+08:00</updated><entry><title>week4</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week4.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623246/blog/2018-Fall-Project-Blog-week4.html</id><summary type="html">&lt;p&gt;2018 Fall 使用onshape&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623246/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623246/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623246/blog/</id><updated>2018-10-22T11:00:00+08:00</updated><entry><title>week8</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week8.html" rel="alternate"></link><published>2018-10-22T11:00:00+08:00</published><updated>2018-10-22T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623246/blog/2018-Fall-Project-Blog-week8.html</id><summary type="html">&lt;p&gt;2018 Fall 網頁Title更改&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Fall 網頁Title更改&lt;/p&gt;
+
+
+&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
+&lt;p&gt;說明機電資整合設計專案流程所需的相關套件運用與技術&lt;/p&gt;
+&lt;h2&gt;網頁Title更改&lt;/h2&gt;
+&lt;p&gt;用Leo開啟檔案 cmsimfly.leo，使用搜尋功能找到"計算機程式"，將它改為"電腦輔助設計實習"，儲存檔案後即可提交到遠端。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week7</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week7.html" rel="alternate"></link><published>2018-10-15T11:00:00+08:00</published><updated>2018-10-15T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-15:/site-40623246/blog/2018-Fall-Project-Blog-week7.html</id><summary type="html">&lt;p&gt;2018 Fall github 出問題?&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Fall github 出問題?&lt;/p&gt;
+
+
+&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
+&lt;p&gt;githgub無法順利登入使用，推測是網路裝置與資料庫故障或是在更新資料庫， 可能影響存儲在MySQL數據庫中的網站元數據&lt;/p&gt;
+&lt;p&gt;利用 Github, 近端與區域網路中的 Fossil Scm, 保全輔助設計的資料&lt;/p&gt;
+&lt;p&gt;說明如何在使用 CMSimfly 過程, 碰到無法正確解讀 config/content.htm 時, 可採取的更新程式碼或回報問題的流程。&lt;/p&gt;
+&lt;p&gt;利用 Virtualbox 安裝 Ubuntu 18.04.1 伺服器, 目的在自行建立 Fossil SCM 。&lt;/p&gt;
+&lt;p&gt;展示如何在先前所建立的虛擬 Ubuntu 18.04 上啟動 https 協定下的 Fossil SCM 伺服器。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week6</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week6.html" rel="alternate"></link><published>2018-10-08T11:00:00+08:00</published><updated>2018-10-08T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-08:/site-40623246/blog/2018-Fall-Project-Blog-week6.html</id><summary type="html">&lt;p&gt;2018 Fall github update&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Fall github update&lt;/p&gt;
+
+
+&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
+&lt;p&gt;更新倉儲中的 flaskapp.py 至最新版本&lt;/p&gt;
+&lt;p&gt;1.搜尋 github cmsimfly&lt;/p&gt;
+&lt;p&gt;2.克隆cmsimfly&lt;/p&gt;
+&lt;p&gt;3.將其中 flaskapp.py 的檔案複製進自己的倉儲，選擇複製並取代&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week5</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week5.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623246/blog/2018-Fall-Project-Blog-week5.html</id><summary type="html">&lt;p&gt;2018 Fall 練習onshape&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Fall 練習onshape&lt;/p&gt;
+
+
+&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
+&lt;p&gt;從 Onshapeweek1 ~ Onshapeweek2 ，練習利用Onshape 繪圖&lt;/p&gt;
+&lt;p&gt;用 Merriam-Webster 查不會的英文單字&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week4</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week4.html" rel="alternate"></link><published>2018-09-24T11:00:00+08:00</published><updated>2018-09-24T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-24:/site-40623246/blog/2018-Fall-Project-Blog-week4.html</id><summary type="html">&lt;p&gt;2018 Fall 使用onshape&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 使用onshape&lt;/p&gt;
 
 
@@ -18,37 +48,7 @@
 &lt;p&gt;6.藍色框中最右邊的四個圖標代表Extrude，Revolve，Sweep和Loft。這些被稱為4個基本特徵&lt;/p&gt;
 &lt;p&gt;7.草圖：在選擇的平面上作圖，如果該線條有被固定，線條會從原本的藍色轉為黑色&lt;/p&gt;
 &lt;p&gt;8.拉伸：能讓一個封閉且固定的面變成體可以直接打想要的數值上去。同時擁有切割的功能。&lt;/p&gt;
-&lt;p&gt;9.將鼠標停留在想要知道的功能上約2秒就可以顯示此功能的解說&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week5</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week5.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623246/blog/2018-Fall-Project-Blog-week5.html</id><summary type="html">&lt;p&gt;2018 Fall 使用onshape&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2018 Fall 使用onshape&lt;/p&gt;
-
-
-&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
-&lt;p&gt;從 Onshapeweek1 ~ Onshapeweek2 ，練習利用Onshape 繪圖&lt;/p&gt;
-&lt;p&gt;用 Merriam-Webster 查不會的英文單字&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week6</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week6.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623246/blog/2018-Fall-Project-Blog-week6.html</id><summary type="html">&lt;p&gt;2018 Fall github update&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2018 Fall github update&lt;/p&gt;
-
-
-&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
-&lt;p&gt;更新倉儲中的 flaskapp.py 至最新版本&lt;/p&gt;
-&lt;p&gt;1.搜尋 github cmsimfly&lt;/p&gt;
-&lt;p&gt;2.克隆cmsimfly&lt;/p&gt;
-&lt;p&gt;3.將其中 flaskapp.py 的檔案複製進自己的倉儲，選擇複製並取代&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week7</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week7.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623246/blog/2018-Fall-Project-Blog-week7.html</id><summary type="html">&lt;p&gt;2018 Fall github 出問題?&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2018 Fall github 出問題?&lt;/p&gt;
-
-
-&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
-&lt;p&gt;githgub無法順利登入使用，推測是網路裝置與資料庫故障或是在更新資料庫， 可能影響存儲在MySQL數據庫中的網站元數據&lt;/p&gt;
-&lt;p&gt;利用 Github, 近端與區域網路中的 Fossil Scm, 保全輔助設計的資料&lt;/p&gt;
-&lt;p&gt;說明如何在使用 CMSimfly 過程, 碰到無法正確解讀 config/content.htm 時, 可採取的更新程式碼或回報問題的流程。&lt;/p&gt;
-&lt;p&gt;利用 Virtualbox 安裝 Ubuntu 18.04.1 伺服器, 目的在自行建立 Fossil SCM 。&lt;/p&gt;
-&lt;p&gt;展示如何在先前所建立的虛擬 Ubuntu 18.04 上啟動 https 協定下的 Fossil SCM 伺服器。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week8</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week8.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623246/blog/2018-Fall-Project-Blog-week8.html</id><summary type="html">&lt;p&gt;2018 Fall 使用onshape&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2018 Fall 使用onshape&lt;/p&gt;
-
-
-&lt;h2&gt;課程倉儲 site-40623246&lt;/h2&gt;
-&lt;p&gt;說明機電資整合設計專案流程所需的相關套件運用與技術&lt;/p&gt;
-&lt;h1&gt;網頁Title更改&lt;/h1&gt;
-&lt;p&gt;用Leo開啟檔案 cmsimfly.leo，使用搜尋功能找到"計算機程式"，將它改為"電腦輔助設計實習"，儲存檔案後即可提交到遠端。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week2</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week2.html" rel="alternate"></link><published>2018-09-17T11:00:00+08:00</published><updated>2018-09-17T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-17:/site-40623246/blog/2018-Fall-Project-Blog-week2.html</id><summary type="html">&lt;p&gt;2018 Fall 更新自己的網誌標題及內容&lt;/p&gt;
+&lt;p&gt;9.將鼠標停留在想要知道的功能上約2秒就可以顯示此功能的解說&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>week2</title><link href="https://mdecadp2018.github.io/site-40623246/blog/2018-Fall-Project-Blog-week2.html" rel="alternate"></link><published>2018-09-17T11:00:00+08:00</published><updated>2018-09-17T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-17:/site-40623246/blog/2018-Fall-Project-Blog-week2.html</id><summary type="html">&lt;p&gt;2018 Fall 更新自己的網誌標題及內容&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 更新自己的網誌標題及內容&lt;/p&gt;
 
 
