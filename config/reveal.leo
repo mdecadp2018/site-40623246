@@ -273,12 +273,14 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 
 ```
 @language python
-
 1.確定選用渦桿，最簡單的方法!
 
 2.使用onshape製作
 
-```</t>
+
+```
+
+</t>
 <t tx="leo.20181105034031.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -296,12 +298,12 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 
 ```
 @language python
-
 1.進行模擬
 
 2.發現零件無法拆解(在onshape組合件中，還未export前，組合完成時需要先讓旋轉的部分轉一下模擬時才不會被視為同一個零件)
 
 3.發現渦桿會把球推出來
+
 
 ```
 </t>
@@ -322,12 +324,12 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 
 ```
 @language python
-
 1.軌道完成
 
 2.兼具美觀的部分利用掃掠，能在外觀平整的情況產生一個只有內部傾斜的軌道
 
 3.實用的部分，可以直接接上球框底下的部分，不須多做額外的修改
+
 
 ```
 </t>
@@ -348,10 +350,10 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 
 ```
 @language python
-
 1.完成了渦桿，還未測試
 
 2.軌道還在想如何能兼具美觀和實用，嘗試畫了一部份
+
 
 ```
 </t>
@@ -372,8 +374,6 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 
 ```
 @language python
-
-
 1.期末進度分工，我的部分是"進球機構"
 
 2.和同樣做進球機構的同學討論方向
@@ -401,14 +401,16 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 
 ```
 @language python
-
 1.在修改的過程中意外解決渦桿會把球推出來的問題(在旁邊多開一個槽，多了一個側巷的移動後，球可以順利沿溝槽向上移動)
 
 2.拍攝一部簡單的V-rep進球機構模擬設定
 
-&lt;iframe src="https://youtu.be/uBk22es_fd8" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="640" height="490" src="https://www.youtube.com/embed/uBk22es_fd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
-```</t>
+
+```
+
+</t>
 <t tx="leo.20181105034339.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -426,9 +428,11 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 
 ```
 @language python
-
 1.將資料更新上小組網站
 
-```</t>
+
+```
+
+</t>
 </tnodes>
 </leo_file>
