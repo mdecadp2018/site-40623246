@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20181105034055.1" a="E"><vh>week1</vh>
@@ -47,20 +47,6 @@
 </v>
 <v t="leo.20181105034339.1" a="E"><vh>week7</vh>
 <v t="leo.20181105034339.2"><vh>w7</vh></v>
-</v>
-<v t="leo.20181105034350.1" a="E"><vh>week8</vh>
-<v t="leo.20181105034350.2"><vh>w8</vh></v>
-</v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
-</v>
 </v>
 </v>
 </v>
@@ -148,16 +134,13 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">## 2019 Spring 期末報告
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
 Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.html)
 &lt;/small&gt;
-
-[2018 Fall 個人網誌](https://mdecadp2018.github.io/site-40623246/content/index.html)
-
 
 </t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
@@ -179,83 +162,6 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -270,7 +176,7 @@ make.start()
 <t tx="leo.20180827201621.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-2018 Fall 分組網際簡報
+2019 Spring 協同產品設計實習
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -361,21 +267,18 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181105032431.2">## w2
+<t tx="leo.20181105032431.2">## 第十二週
 
-### 更新自己的網誌標題及內容
+### 該如何從零畫出一個進球機構
 
-利用p37中的git建立個人的Github Pages
+```
+@language python
 
-輸入指令 python wsgi.py 啟動近端動態
+1.確定選用渦桿，最簡單的方法!
 
-登入(login)，更改配置(config)
+2.使用onshape製作
 
-利用 generate_pages 轉為靜態網頁
-
-推送至自己的倉儲
-
-@generate_pages:將所有原始檔案刪除，再重新建立所有檔案，以達到更新的效果</t>
+```</t>
 <t tx="leo.20181105034031.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -387,13 +290,21 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181105034031.2">## w5
+<t tx="leo.20181105034031.2">## 第十五週
 
-### onshape練習
+### 軌道
 
-利用Onshape繪圖，練習更多Onshape功能。
+```
+@language python
 
-onshape作業練習</t>
+1.進行模擬
+
+2.發現零件無法拆解(在onshape組合件中，還未export前，組合完成時需要先讓旋轉的部分轉一下模擬時才不會被視為同一個零件)
+
+3.發現渦桿會把球推出來
+
+```
+</t>
 <t tx="leo.20181105034041.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -405,18 +316,21 @@ onshape作業練習</t>
 
 						
 </t>
-<t tx="leo.20181105034041.2">## w4
+<t tx="leo.20181105034041.2">## 第十四週
 
-### onshape
+### 軌道
+
 ```
 @language python
-onshape
 
-網頁版的繪圖軟體，類似於SOLIDWORK的操作模式，但是又加上雲端的協同功能。
+1.軌道完成
 
-學習用Onshape繪圖，認識介面及熟悉操作
+2.兼具美觀的部分利用掃掠，能在外觀平整的情況產生一個只有內部傾斜的軌道
 
-```</t>
+3.實用的部分，可以直接接上球框底下的部分，不須多做額外的修改
+
+```
+</t>
 <t tx="leo.20181105034043.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -428,9 +342,19 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034043.2">### w3
+<t tx="leo.20181105034043.2">##第十三週
 
-中秋放假</t>
+### 渦桿
+
+```
+@language python
+
+1.完成了渦桿，還未測試
+
+2.軌道還在想如何能兼具美觀和實用，嘗試畫了一部份
+
+```
+</t>
 <t tx="leo.20181105034055.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -442,19 +366,24 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034055.2">## w1
+<t tx="leo.20181105034055.2">## 第十一週
 
-### github推送資料複習
+### 分工
+
 ```
 @language python
--克隆:git clone  "目標網址" "放置之資料夾名稱"
 
--狀態:git status ，主要是用來看目前working directory中所有檔案的情形
 
--添加、追蹤:git add . ，將檔案安置到暫存區
+1.期末進度分工，我的部分是"進球機構"
 
--提交紀錄:git commit -m ，把暫存區的檔案移至儲存庫
-```</t>
+2.和同樣做進球機構的同學討論方向
+
+3.底部垂直送球上來 或 連桿式機構 或 渦桿
+
+
+```
+
+</t>
 <t tx="leo.20181105034328.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -466,17 +395,20 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034328.2">## w6
+<t tx="leo.20181105034328.2">## 第十六週
 
-### github更新
+### 軌道
 
-更新倉儲中的 flaskapp.py 至最新版本
+```
+@language python
 
-搜尋 github cmsimfly
+1.在修改的過程中意外解決渦桿會把球推出來的問題(在旁邊多開一個槽，多了一個側巷的移動後，球可以順利沿溝槽向上移動)
 
-克隆該倉儲
+2.拍攝一部簡單的V-rep進球機構模擬設定
 
-並將其中 flaskapp.py 的檔案複製進自己的倉儲，選擇複製並取代</t>
+&lt;iframe src="https://youtu.be/uBk22es_fd8" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+```</t>
 <t tx="leo.20181105034339.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -488,27 +420,15 @@ onshape
 
 						
 </t>
-<t tx="leo.20181105034339.2">## w7
+<t tx="leo.20181105034339.2">## 第十七週
 
-### github無法使用
+### 軌道
 
-討論發生此狀況的原因，及其他應變的方法
-</t>
-<t tx="leo.20181105034350.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
+```
+@language python
 
+1.將資料更新上小組網站
 
-
-						
-</t>
-<t tx="leo.20181105034350.2">## w8
-
-### 網誌標題
-
-更改升級CMSimfly倉儲中的flaskapp.py下，網頁的標題。</t>
+```</t>
 </tnodes>
 </leo_file>

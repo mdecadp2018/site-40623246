@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 <title>
-2018 Fall 分組網際簡報
+2019 Spring 協同產品設計實習
 </title>
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Hakim El Hattab">
@@ -39,16 +39,13 @@
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## 2018Fall 分組網際簡報
+## 2019 Spring 期末報告
 
 ### 虎科大機械設計工程系
 
 <small>
 Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.html)
 </small>
-
-[2018 Fall 個人網誌](https://mdecadp2018.github.io/site-40623246/content/index.html)
-
 
     </script>
 </section>
@@ -74,75 +71,19 @@ Created by [40623246](https://mdecadp2018.github.io/site-40623246/content/index.
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## w1
+## 第十一週
 
-### github推送資料複習
-```
--克隆:git clone  "目標網址" "放置之資料夾名稱"
+### 分工
 
--狀態:git status ，主要是用來看目前working directory中所有檔案的情形
-
--添加、追蹤:git add . ，將檔案安置到暫存區
-
--提交紀錄:git commit -m ，把暫存區的檔案移至儲存庫
 ```
 
-    </script>
-</section>
 
+1.期末進度分工，我的部分是"進球機構"
 
+2.和同樣做進球機構的同學討論方向
 
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## w2
+3.底部垂直送球上來 或 連桿式機構 或 渦桿
 
-### 更新自己的網誌標題及內容
-
-利用p37中的git建立個人的Github Pages
-
-輸入指令 python wsgi.py 啟動近端動態
-
-登入(login)，更改配置(config)
-
-利用 generate_pages 轉為靜態網頁
-
-推送至自己的倉儲
-
-@generate_pages:將所有原始檔案刪除，再重新建立所有檔案，以達到更新的效果
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-### w3
-
-中秋放假
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## w4
-
-### onshape
-```
-onshape
-
-網頁版的繪圖軟體，類似於SOLIDWORK的操作模式，但是又加上雲端的協同功能。
-
-學習用Onshape繪圖，認識介面及熟悉操作
 
 ```
 
@@ -155,114 +96,37 @@ onshape
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## w5
+## 第十二週
 
-### onshape練習
+### 該如何從零畫出一個進球機構
 
-利用Onshape繪圖，練習更多Onshape功能。
-
-onshape作業練習
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## w6
-
-### github更新
-
-更新倉儲中的 flaskapp.py 至最新版本
-
-搜尋 github cmsimfly
-
-克隆該倉儲
-
-並將其中 flaskapp.py 的檔案複製進自己的倉儲，選擇複製並取代
-
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## w7
-
-### github無法使用
-
-討論發生此狀況的原因，及其他應變的方法
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## w8
-
-### 網誌標題
-
-更改升級CMSimfly倉儲中的flaskapp.py下，網頁的標題。
-
-    </script>
-</section>
-
-
-
-						
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
 ```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
+1.確定選用渦桿，最簡單的方法!
+
+2.使用onshape製作
+
+```
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十三週
+
+### 渦桿
+
+```
+
+1.完成了渦桿，還未測試
+
+2.軌道還在想如何能兼具美觀和實用，嘗試畫了一部份
+
 ```
     </script>
 </section>
@@ -272,18 +136,90 @@ make.start()
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+<!-- 請注意, @others 不可以內縮 -->
+## 第十四週
 
-### 導入影片 template
+### 軌道
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+```
+
+1.軌道完成
+
+2.兼具美觀的部分利用掃掠，能在外觀平整的情況產生一個只有內部傾斜的軌道
+
+3.實用的部分，可以直接接上球框底下的部分，不須多做額外的修改
+
+```
     </script>
 </section>
 
 
+
 						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 第十五週
+
+### 軌道
+
+```
+
+1.進行模擬
+
+2.發現零件無法拆解(在onshape組合件中，還未export前，組合完成時需要先讓旋轉的部分轉一下模擬時才不會被視為同一個零件)
+
+3.發現渦桿會把球推出來
+
+```
+    </script>
 </section>
 
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 第十六週
+
+### 軌道
+
+```
+
+1.在修改的過程中意外解決渦桿會把球推出來的問題(在旁邊多開一個槽，多了一個側巷的移動後，球可以順利沿溝槽向上移動)
+
+2.拍攝一部簡單的V-rep進球機構模擬設定
+
+<iframe src="https://youtu.be/uBk22es_fd8" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+```
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 第十七週
+
+### 軌道
+
+```
+
+1.將資料更新上小組網站
+
+```
+
+    </script>
+</section>
+
+
+
+						
 </div>
 
 </div>
